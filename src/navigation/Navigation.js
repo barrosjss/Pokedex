@@ -47,7 +47,7 @@ export default function Navigation() {
             return (
               <Image
                 source={require("../assets/pokebola.png")}
-                style={{ width: 70, height: 70 }}
+                style={{ width: 75, height: 75, marginBottom: 15 }}
               />
             );
           },
