@@ -4,6 +4,7 @@ import { getPokemonDetailsApi } from "../api/pokemon";
 import Header from "../components/Pokemon/Header";
 import Type from "../components/Pokemon/Type";
 import Stats from "../components/Pokemon/Stats";
+import { AntDesign } from "@expo/vector-icons";
 
 export default function Pokemon(props) {
   const {
@@ -11,6 +12,20 @@ export default function Pokemon(props) {
     route: { params },
   } = props;
   const [pokemon, setPokemon] = useState(null);
+
+  useEffect(() => {
+    navigation.setOptions({
+      headerRight: () => null,
+      headerLeft: () => (
+        <AntDesign
+          name="arrowleft"
+          color="white"
+          size={20}
+          onPress={navigation.goBack}
+        />
+      ),
+    });
+  }, [navigation, params]);
 
   useEffect(() => {
     (async () => {
