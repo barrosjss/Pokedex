@@ -1,9 +1,6 @@
 # Pokedex
 > Proyecto para pruebas
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-
 La Pokédex, en el mundo ficticio de Pokémon, es una enciclopedia electrónica portátil que los entrenadores Pokémon llevan consigo para registrar automáticamente las fichas de todas las diversas especies Pokémon vistas y capturadas durante su viaje como entrenadores.
 
 <img width="200" alt="Frame 10" src="https://github.com/barrosjss/Pokedex/blob/main/resources/ss0.png?raw=true"> <img width="200" alt="Frame 10" src="https://github.com/barrosjss/Pokedex/blob/main/resources/ss1.png?raw=true">
@@ -31,9 +28,3 @@ yarn add react-native-paper
 Jesus Barros – [@barrosjss](https://www.instagram.com/barrosjss/) – jesus.reinaldo.barros.com
 
 [https://github.com/barrosjss](https://github.com/barrosjss)
-
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
